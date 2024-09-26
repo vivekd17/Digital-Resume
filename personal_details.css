@@ -1,0 +1,10 @@
+
+h1{
+    margin-bottom: -2%;
+}
+ul,li{
+    padding: 5px 5px 0px 10px;
+    font-size: 18px;
+    justify-content: space-between;
+    margin: 1.5% 0% 0% 4%;
+}

@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+body {
+  background: #a6f70533;
+  
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add more styles as needed */
+.head-main {
+  display: inline-flexbox;
+}
+.page-contetn {
+  margin: 2% 10% 5% 10%;
+  padding: 1%;
+  background: #ffffff;
+  box-shadow: 2px 6px 8px black;
+}
+.main-header {
+  margin: 5%;
+  padding: 2%;
+  border: 3px solid rgb(0, 0, 0);
+  background: blue;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.main-header h1,
+p {
+  text-align: center;
+}
+.main-header h1 {
+  color: white;
+  padding-right: 10%;
+  font-size: 40px;
+}
+.main-header p {
+  color: rgb(255, 255, 255);
+  padding-left: 8%;
+}
+/* Profile Photo */
+.profile-pic {
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: -15%;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  height: 220px;
+  width: 200px;
+}
+/* Iframe personal_details */
+.personal_details {
+  height: 325px;
+  width: 45%;
+  float: left;
+  padding: 0% 5% 0% 5%;
+  margin-bottom: -580px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  width: 52.4%; /* Adjust as needed */
+  padding: 20px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6%;
+}
+.section1 {
+  width: 48%; /* Adjust as needed */
+  padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4%;
+}
+.section2 {
+  width: 48%; /* Adjust as needed */
+  padding: 30px 30px 0px 30px; 
+  /* margin-top: -7%; */
+}
